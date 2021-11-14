@@ -1,4 +1,6 @@
-- [NestJS Practice Project](#nestjs-practice-project)
+# NestJS Practice Project (Items, with MongoDB)
+
+- [NestJS Practice Project (Items, with MongoDB)](#nestjs-practice-project-items-with-mongodb)
   - [Description](#description)
   - [Installation](#installation)
   - [Running the app](#running-the-app)
@@ -20,8 +22,6 @@
     - [GET `/items/{id}`](#get-itemsid)
     - [DELETE `/items/{id}`](#delete-itemsid)
     - [PUT `/items/{id}`](#put-itemsid)
-
-# NestJS Practice Project
 
 ## Description
 
