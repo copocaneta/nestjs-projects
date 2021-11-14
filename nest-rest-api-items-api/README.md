@@ -25,7 +25,11 @@
 
 ## Description
 
-- This is a [NestJS](https://github.com/nestjs/nest) practice project I've done based on the [Crash Course by Traversy Media](https://www.youtube.com/watch?v=wqhNoDE6pb4) from Youtube with some differences, improvements and bugfixes.
+- This is a [NestJS](https://github.com/nestjs/nest) practice project I've done based on the [Crash Course by Traversy Media](https://www.youtube.com/watch?v=wqhNoDE6pb4) from Youtube with some differences, improvements and bugfixes, this project consists of:
+
+  - [NestJS](https://github.com/nestjs/nest)
+  - [MongoDB](https://www.mongodb.com/) database
+  - [SwaggerAPI](https://docs.nestjs.com/openapi/introduction)(OpenAPI)
 
 - One of the main differennces is the implementation of the Swagger UI I've done and also the bug fix for the following error his course was throwing:
 
