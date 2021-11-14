@@ -151,7 +151,7 @@ $ npm run test:cov
   import { MongooseModule } from '@nestjs/mongoose';
   ```
 
-- We create a directory named `config` and inside this directory we create a `key.ts`, we place this inside our `key.ts` file:
+- We create a directory named `config` and inside this directory we create a `keys.ts`, we place this inside our `keys.ts` file:
 
   ```js
   export default {
