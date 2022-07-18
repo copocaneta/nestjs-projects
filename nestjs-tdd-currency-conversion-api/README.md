@@ -71,3 +71,21 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## What I did:
+
+- `nest new nestjs-tdd-currency-conversion-api`
+
+- then removed `app.controller.ts` and `app.service.ts` and removed them from `app.modules.ts`
+
+- then `nest g res user` to generate user crud, chose REST API
+
+- alternatively I could have not used the `nest g res` (resourcer) and instead created module and service separetely, see example for a `task`:
+
+  ```sh
+  nest g module task
+  ```
+
+  ```sh
+  nest g service task
+  ```
