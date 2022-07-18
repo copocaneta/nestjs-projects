@@ -15,4 +15,10 @@ describe('TaskService', () => {
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
+
+  describe('createTask()', () => {
+    it('should throw error if name not found', () => {
+      expect(service.createTask({})).rejects.toThrow();
+    });
+  });
 });
