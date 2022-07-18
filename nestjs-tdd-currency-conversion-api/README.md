@@ -89,3 +89,37 @@ Nest is [MIT licensed](LICENSE).
   ```sh
   nest g service task
   ```
+
+## Project explanation:
+
+### API for currency conversion
+
+- `GET`
+
+  - `/exchange/?from=USD&to=BRL&amount`
+
+- `GET`
+
+  - `/currencies/USD/`
+
+- `POST`
+
+  - `/currencies/`
+    ```js
+    {
+      currency: USD,
+      value: 1
+    }
+    ```
+
+- `PATCH`
+
+  - `/currencies/BRL/value`
+    ```js
+    {
+      value: 0.2;
+    }
+    ```
+
+- `DELETE`
+  - `/currencies/EUR/`

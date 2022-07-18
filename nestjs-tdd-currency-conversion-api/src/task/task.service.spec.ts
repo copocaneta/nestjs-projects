@@ -17,8 +17,8 @@ describe('TaskService', () => {
   });
 
   describe('createTask()', () => {
-    it('should throw error if name not found', () => {
-      expect(service.createTask({})).rejects.toThrow();
+    it('should throw error if name not found', async () => {
+      await expect(service.createTask({})).rejects.toThrow();
     });
   });
 });
